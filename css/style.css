@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Open+Sans:wght@300&family=Pacifico&display=swap');
+
+
+.hidden {
+    display: none;
+}
+
+img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: -1;
+    opacity: 60%;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+
+#login-form input {
+    height: 90px;
+    width: 550px;
+    border: none;
+    border-radius: 5px;
+    top: 60px;
+    margin: 10px 10px;
+    opacity: 0.5;
+    padding-top: 25px;
+}
+
+#login-form input::placeholder {
+    font-size: 60px;
+    font-family: 'Pacifico', cursive;
+    padding-left: 20px;
+}
+
+#login-form button {
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    border: none;
+    border-color: azure;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+}
+
+#greeting {
+    font-size: 80px;
+    font-family: 'Pacifico', cursive;
+    opacity: 0.7;
+    position: absolute;
+    top: 120px;
+    margin-bottom: 80px;
+}
+
+#clock {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    opacity: 0.55;
+    margin: 25px 0px;
+}
+
+#todo-form input {
+    height: 45px;
+    width: 300px;
+    border: none;
+    border-radius: 30px;
+    top:60px;
+    margin: 10px 10px;
+    opacity: 0.9;
+    padding-left: 30px;
+}
+
+#todo-list {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+li span {
+    margin-right: 10px;
+    opacity: 0.8;
+}
+
+li button {
+    border: none;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+#todo-form input::placeholder {
+    opacity: 0.8;    
+    font-size: 15px;
+  }
+
+#quote {
+    position: absolute;
+    bottom: 50px;
+    opacity: 0.6;
+    width: 80vw;
+}
+#weather {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
